@@ -12,8 +12,6 @@ namespace HREqualizeTheArray {
             // find element with most appearances
             // count number of elements that != most common
 
-            int len = arr.Length;
-
             var dict = new Dictionary<int, int>();
 
             foreach (int i in arr) {
